@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create options list container
     const list = document.createElement("ul");
-    list.className = "absolute z-50 mt-1 w-full bg-white border border-gray-300 rounded shadow-lg max-h-60 overflow-y-auto hidden";
+    list.className = "absolute z-50 mt-1 w-full bg-white border border-gray-300 rounded shadow-lg max-h-100 overflow-y-auto hidden";
 
     // Populate custom options
     Array.from(select.options).forEach((option) => {
