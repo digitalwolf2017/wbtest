@@ -19,12 +19,7 @@
     font-style: normal;
     font-display: swap;
 }
-.hero-section {
-    background-image: url("assets/bvanner.webp");
-    background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
-}
+
 .hero-overlay {
     background: linear-gradient(90deg, #00549e 40%, rgba(0, 84, 158, 0.9) 65%, rgba(0, 84, 158, 0.2) 100%);
 }
@@ -105,3 +100,8 @@
 .splide__arrow--next {
     right: -2rem !important;
 }
+
+ .bold-first option::first-letter {
+      font-weight: 700; /* Equivalent to font-bold */
+      color: #4f46e5;   /* Equivalent to text-indigo-600 */
+    }

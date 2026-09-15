@@ -239,7 +239,7 @@
                                 class="w-full px-4 py-2.5 border border-gray-300 rounded text-md text-gray-500 bg-white focus:border-brandBlue">
                                 <option value="">Select Branch</option>
 
-                                <option value="Andal">Andal</option>
+                                <option value="Andal"><span class="font-bold text-lg text-indigo-600">A</span>ndal</option>
                                 <option value="Andul">Andul</option>
                                 <option value="Asansol">Asansol</option>
                                 <option value="Bally">Bally</option>
@@ -2840,7 +2840,7 @@
                     <div class="relative">
                         <select name="branch" id="branch_3" required data-form-id="about-left"
                             onchange="getRefresh(this.value, 3); getReservationType(this.value, 3);"
-                            class="w-full px-4 py-3 border border-gray-300 rounded text-sm text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                            class="bold-first w-full px-4 py-3 border border-gray-300 rounded text-sm text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
                             <option value="">Select Branch</option>
 
                                 <option value="Andal">Andal</option>
@@ -2883,8 +2883,9 @@
                                 <option value="Sonarpur">Sonarpur</option>
                                 <option value="Sodepur">Sodepur</option>
                                 <option value="Ulluberia">Ulluberia</option>
-                            </select><i
-                            class="fas fa-chevron-down absolute right-4 top-4 text-xs text-gray-400 pointer-events-none"></i>
+                             </select>
+                            <!-- <i
+                            class="fas fa-chevron-down absolute right-4 top-4 text-xs text-gray-400 pointer-events-none"></i> -->
                     </div>
                     <div class="relative">
                         <select name="board" id="board_3" required data-form-id="about-left"
